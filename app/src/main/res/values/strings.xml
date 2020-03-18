@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Dating App</string>
+    
+    <string-array name="UserSexuality">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Trans-Male</item>
+        <item>Trans-Female</item>
+    </string-array>
+
+    <string-array name="Pref">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Trans-Male</item>
+        <item>Trans=Female</item>
+        <item>Both Male and Female</item>
+        <item>All of the Above</item>
+    </string-array>
+</resources>

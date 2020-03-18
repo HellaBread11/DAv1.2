@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202632"
+    android:paddingBottom="50dp"
+    tools:context=".ProfileSetup">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/profileimageholder"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="Setup Profile"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:paddingLeft="60dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/Profile_Image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="120dp"
+                android:src="@drawable/profileblank"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="400dp"
+                android:layout_centerHorizontal="true"
+                android:text="Bio"
+                android:textSize="32sp"
+                android:textColor="#2EC4B6"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="460dp"
+                android:hint="First Name"
+                android:textColorHint="#2DD882"
+                android:inputType="text"
+                android:paddingLeft="20dp"
+                android:background="@drawable/edittextblock"/>
+
+            <EditText
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="520dp"
+                android:hint="Last Name"
+                android:textColorHint="#2DD882"
+                android:inputType="text"
+                android:paddingLeft="20dp"
+                android:background="@drawable/edittextblock"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="580dp"
+                android:layout_centerHorizontal="true"
+                android:text="Select Date of Birth"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:paddingTop="10dp"
+                android:textColor="#2DD882"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="640dp"
+                android:layout_centerHorizontal="true"
+                android:text="Date/Month/Year"
+                android:textSize="20sp"
+                android:textColor="#2DD882"
+                android:id="@+id/dateselector"/>
+
+            <EditText
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="700dp"
+                android:hint="Job Title"
+                android:textColorHint="#2DD882"
+                android:inputType="text"
+                android:paddingLeft="20dp"
+                android:background="@drawable/edittextblock"/>
+
+            <EditText
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="760dp"
+                android:hint="Company"
+                android:textColorHint="#2DD882"
+                android:inputType="text"
+                android:paddingLeft="20dp"
+                android:background="@drawable/edittextblock"/>
+
+            <EditText
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="820dp"
+                android:hint="School Name"
+                android:textColorHint="#2DD882"
+                android:inputType="text"
+                android:paddingLeft="20dp"
+                android:background="@drawable/edittextblock"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="880dp"
+                android:layout_centerHorizontal="true"
+                android:text="Preference"
+                android:textSize="32sp"
+                android:textColor="#2EC4B6"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="940dp"
+                android:layout_centerHorizontal="true"
+                android:text="I am a:"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:paddingTop="10dp"
+                android:textColor="#2DD882"/>
+
+            <Spinner
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="1000dp"
+                android:layout_centerHorizontal="true"
+                android:entries="@array/UserSexuality"
+                android:paddingLeft="10dp"
+                android:background="#2EC4B6"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="1060dp"
+                android:layout_centerHorizontal="true"
+                android:text="Looking for:"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:paddingTop="10dp"
+                android:textColor="#2DD882"/>
+
+            <Spinner
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="1120dp"
+                android:layout_centerHorizontal="true"
+                android:entries="@array/UserSexuality"
+                android:paddingLeft="10dp"
+                android:background="#2EC4B6"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="1180dp"
+                android:layout_centerHorizontal="true"
+                android:text="Age Between:"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:paddingTop="10dp"
+                android:textColor="#2DD882"/>
+
+            <me.bendik.simplerangeview.SimpleRangeView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_marginTop="1240dp"
+                android:id="@+id/fixed_rangeview"
+                android:layout_centerHorizontal="true"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                app:count="80"
+                app:start="1"
+                app:end="20"
+                app:showFixedLine="false"
+                app:startFixed="0"
+                app:endFixed="100"
+                app:activeLineColor="#2DD882"
+                app:lineColor="#2F3543"
+                app:activeThumbColor="#2EC4B6"
+                />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="1300dp"
+                android:layout_centerHorizontal="true"
+                android:text="Distance:"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:paddingTop="10dp"
+                android:textColor="#2DD882"/>
+
+            <me.bendik.simplerangeview.SimpleRangeView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_marginTop="1360dp"
+                android:id="@+id/dist_rangeview"
+                android:layout_centerHorizontal="true"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                app:count="80"
+                app:start="1"
+                app:end="20"
+                app:showFixedLine="false"
+                app:startFixed="0"
+                app:endFixed="100"
+                app:activeLineColor="#2DD882"
+                app:lineColor="#2F3543"
+                app:activeThumbColor="#2EC4B6"
+                />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

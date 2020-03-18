@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202632"
+    android:paddingBottom="30dp"
+    tools:context="HomePage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Sign Up"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#2EC5B4"
+        android:layout_marginTop="350dp"/>
+
+    <Button
+        android:layout_width="308dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/facebookbutton"
+        android:text="Log In with Facebook"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/SignupPhoneButton"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/gradient_button"
+        android:text="signup with phone number"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:layout_centerHorizontal="true"
+        android:text="Already have an account?Login"
+        android:textSize="15sp"
+        android:textColor="#ffffff"/>
+
+
+
+</RelativeLayout>
